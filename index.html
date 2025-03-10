@@ -6,56 +6,211 @@
   <title>VenkataLohith - portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
   <nav>
-    <div class="navbar navbar-light bg-info navbar-expand-lg fixed-top">
+    <div class="navbar border-bottom navbar-expand-lg fixed-top">
       <div class="container">
-          <a href="" class="navbar-brand"><span>V</span>enkata <span>L</span>ohith</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+          <a href="" class="navbar-brand"><span>V</span>enkata<span>L</span>ohith</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>  
         </button>
         <div class="navbar-collapse collapse justify-content-end" id="menu">
-          <ul class="navbar-nav text-center ">
+          <ul class="navbar-nav text-center">
             <li class="nav-item">
-             <a href="#home" class="nav-link">Home</a>
+              <a href="#home" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-             <a href="#about" class="nav-link">About</a>
+              <a href="#about" class="nav-link"> About</a>
             </li>
             <li class="nav-item">
-             <a href="#skills" class="nav-link">Skills</a>
+              <a href="#skills" class="nav-link">Skills</a>
             </li>
             <li class="nav-item">
-             <a href="#projects" class="nav-link">Projects</a>
+              <a href="#projects" class="nav-link">Projects</a>
             </li>
             <li class="nav-item">
-             <a href="#contact" class="nav-link">Contact</a>
+              <a href="#contact" class="nav-link">Contact</a>
             </li>
           </ul>
-        </div>      
+        </div>
       </div>
+      <!-- Dark Mode Toggle Button -->
+      <button id="theme-toggle" class="theme-toggle">🌙</button>
     </div>
   </nav>
-  <section>
-    <div class="home-content" id="home">
-      <div class="container">
-         <h4 class="text-success">
-           Venkata Lohith S
-         </h4>
-         <h4 class="text-success">
-           Venkata Lohith S
-         </h4>
-         <h4 class="text-success">
-           Venkata Lohith S
-         </h4>
-         <h4 class="text-success">
-           Venkata Lohith S
-         </h4>
+  <header>
+    <section>
+      <div class="home-content" id="home">
+        <div class="container">
+          <div>
+            <img src="images/main.jpg" alt="photo">
+            <h2 class="name">Sunku Venkata Lohith</h2>
+            <h6>I'm a <span>Full Stack Java Developer</span></h6><br>
+            <a href="files/VenkataLohith.pdf" target="_blank">
+              <button class="btn">Resume</button>
+            </a>
+          </div>
+        </div>
       </div>
-     </div>
+    </section>
+  </header>
+
+  <section>
+    <div class="about-content" id="about">
+      <div class="container">
+        <div>
+           <span>About</span><br><br>
+           <p>My Name is Venkata Lohith. I am from Nellore.I have completed my bachelor degree in ECE from Audisankara College in Gudur, Tirupati district.
+            My strengths are Quick Learner and Self Motivated.
+            My short term goal is to get a job in reputed company where I can improve my skills and experience.
+            My long term goal is to get a respected position in reputed company.
+            My hobbies are playing games and Travelling.</p><br>
+            <button class="btn" onclick="opendetails()">Know More</button>
+        </div><br>
+        <div class="education-details" id="ed">
+          <h4>Education Details</h4>
+          <div class="timeline-area">
+            <div class="box">
+              <h6>Audisankara College of Engineering and Technology</h6>
+              <p>Electronics and Communication Engineering<br>2020-2024<br>Cgpa:7.98</p>
+            </div>
+            <div class="box">
+              <h6>Viswasai Junior College</h6>
+              <p>2020<br>Cgpa:9.1</p>
+            </div>
+            <div class="box">
+              <h6>K.B.R EM High School</h6>
+              <p>2018<br>Cgpa:9.3</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
+
+  <section>
+    <div class="skills-content" id="skills">
+      <div class="container">
+        <div>
+          <span>Skills</span><br><br><br>
+          <div class="skills-grid">
+            <div class="skills-card">
+              <img src="https://education.oracle.com/file/general/p-80-java.png">
+              <div class="skills-name">JAVA</div>
+            </div>
+            <div class="skills-card">
+              <img src="https://gitlab.com/uploads/-/system/project/avatar/50749177/spring-boot-logo-1.png">
+              <div class="skills-name">SPRINGBOOT</div>
+            </div>
+            <div class="skills-card">
+              <img src="https://static-00.iconduck.com/assets.00/sql-database-generic-icon-1521x2048-d0vdpxpg.png">
+              <div class="skills-name">SQL</div>
+            </div>
+            <div class="skills-card">
+              <img src="https://cdn-icons-png.flaticon.com/256/4943/4943029.png">
+              <div class="skills-name">HTML</div>
+            </div>
+            <div class="skills-card">
+              <img src="https://ultimatecourses.com/assets/category/css-fcba6b473cb1125595dc28163be24eb673907258b5f6f6c82967a0587a9df20c.svg">
+              <div class="skills-name">CSS</div>
+            </div>
+            <div class="skills-card">
+              <img src="https://skillforge.com/wp-content/uploads/2020/10/javascript.png">
+              <div class="skills-name">JAVASCRIPT</div>
+            </div>
+            <div class="skills-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg">
+              <div class="skills-name">BOOTSTRAP</div>
+            </div>
+            <div class="skills-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png">
+              <div class="skills-name">REACT</div>
+            </div>
+            <div class="skills-card">
+              <img src="https://www.unixmen.com/wp-content/uploads/2015/02/Git.png">
+              <div class="skills-name">Git</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="projects-content" id="projects">
+      <div class="container">
+        <div>
+         <span>Projects</span><br><br>
+          <div class="projects-grid">
+            <div class="projects-card">
+              <img src="images/Employee Management System.png">
+              <h6>Employee Management System</h6>
+              <button>
+                <a href="https://github.com/VenkataLohithSunku/Employee-Management-System" target="_blank">
+                    <i class="fa-solid fa-link"></i>GitHub Link
+                </a>
+              </button>
+            </div>
+            <div class="projects-card">
+              <img src="images/Product Landing Page.png">
+              <h6>Product Landing Page</h6>
+              <button>
+                <a href="https://github.com/VenkataLohithSunku/Product-Landing-Website" target="_blank">
+                    <i class="fa-solid fa-link"></i>GitHub Link
+                </a>
+              </button>
+            </div>
+            <div class="projects-card">
+              <img src="images/Weather Forecast website.png">
+              <h6>Weather Forecast Website</h6>
+              <button>
+                <a href="https://github.com/VenkataLohithSunku/Weather-Forecsat-Website" target="_blank">
+                  <i class="fa-solid fa-link icon"></i>GitHub Link
+                </a>
+              </button>
+            </div>
+            <div class="projects-card">
+              <img src="images/Portfolio.png">
+              <h6>Portfolio</h6>
+              <button>
+                <a href="https://github.com/VenkataLohithSunku/Personal-Portfolio" target="_blank">
+                  <i class="fa-solid fa-link"></i>GitHub Link
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="contact-content" id="contact">
+      <div class="container">
+        <div>
+          <span class="main-heading">Contact Me</span><br><br>
+          <div class="details">
+            <i class="fa-solid fa-phone"></i>&nbsp;<h5>Phone:&nbsp;<span>+91 7032791080</span></h5>
+            <i class="fa-solid fa-envelope"></i>&nbsp;<h5>Email:&nbsp;<span>venkatalohith9393@gmail.com</span></h5>
+            <i class="fa-solid fa-location-dot"></i><h5>Location:&nbsp;<span>Old Vedayapalem,Nellore-4,AP.</span></h5>
+          </div><br>
+          <div class="social-links">
+            <span>Connect With Me</span><br><br>
+            <a href="https://www.linkedin.com/in/venkata-lohith/"><i class="fa-brands fa-linkedin"></i></a>&nbsp;&nbsp;
+            <a href="https://github.com/VenkataLohithSunku"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="end-point border-top">
+      copyright&copy; 2025 All Rights Resevred.  <br> Developed By Venkata Lohith
+    </div>
+  </footer>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </body>
 </html>
