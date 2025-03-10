@@ -19,12 +19,15 @@ Responsive Flexbox & Grid Layouts<br><br>
 <br>
 🌙 Dark Mode<br>
 ![Screenshot 2025-03-10 103435](https://github.com/user-attachments/assets/3ef03ed7-2dac-43bf-86eb-1c007bf12ea4)
-<br>
+<br><br>
+🔗 Live Demo
+👉 https://venkatalohithsunku.github.io/Personal-portfolio/
 <br><br>
 🙌 Acknowledgements<br>
 Inspired by modern UI/UX principles.<br>
 Icons & Fonts from open-source libraries (FontAwesome, Google Fonts).<br><br>
 📫 Connect with Me<br>
+Portfolio: https://venkatalohithsunku.github.io/Personal-portfolio/<br>
 LinkedIn: https://www.linkedin.com/in/venkata-lohith<br>
 GitHub: https://github.com/VenkataLohithSunku<br>
 Email: venkatalohith9393@gmail.com
