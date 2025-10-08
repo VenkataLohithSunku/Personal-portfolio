@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizzing:border-box;
 }
 :root{
     --bg-color: #ffffff;
@@ -22,6 +23,7 @@ body{
     font-style: normal;
     width: 100%;
     height: 100vh;
+    overflow-x:hidden;
 }
 .navbar{
     background-color: var(--bg-color);
@@ -119,7 +121,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 70vh; */
 }
 .about-content .container{
     display:flex;
@@ -241,7 +242,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 70vh; */
 }
 .projects-content .container{
     display:flex;
@@ -284,9 +284,6 @@ body{
     font-size: 11px;
     font-weight: 600;
 }
-/* .projects-card button:hover{
-    background-color: #dedddd;
-} */
 .projects-card button a {
     color: var(--text-color);
     text-decoration: none;
@@ -306,7 +303,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 70vh; */
     color: var(--text-color);
 }
 .contact-content .container{
@@ -414,3 +410,4 @@ body{
         right: 80px; /* Adjust to ensure space in smaller screens */
     }
 }
+
