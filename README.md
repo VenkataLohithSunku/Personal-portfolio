@@ -15,10 +15,10 @@ Responsive Flexbox & Grid Layouts<br><br>
 <br><br>
 📷 Screenshots<br>
 💡 Light Mode<br>	
-![Screenshot 2025-01-21 202320](https://github.com/user-attachments/assets/db70f733-81ad-40f6-9180-e21276f657ea)
+![Light Mode Screenshot](./images/White Theme.png)
 <br>
 🌙 Dark Mode<br>
-![Screenshot 2025-03-10 103435](https://github.com/user-attachments/assets/3ef03ed7-2dac-43bf-86eb-1c007bf12ea4)
+![Dark Mode Screenshot](./images/Black Theme.png)
 <br><br>
 🔗 Live Demo
 👉 https://venkatalohithsunku.github.io/Personal-portfolio/
