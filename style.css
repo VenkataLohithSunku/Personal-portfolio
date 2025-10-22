@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 :root{
     --bg-color: #ffffff;
@@ -22,6 +23,7 @@ body{
     font-style: normal;
     width: 100%;
     height: 100vh;
+    overflow-x: hidden;
 }
 .navbar{
     background-color: var(--bg-color);
@@ -63,9 +65,8 @@ body{
     transition: all 0.3s ease-in-out;
     z-index: 1050;
 }
-
 .theme-toggle:hover {
-    transform: scale(1);
+    transform: scale(1.1);
 }
 .home-content {
     background-color: var(--bg-color);
@@ -269,7 +270,9 @@ body{
 }
 .projects-card img{
     width: 100%;
-    height: 80%;
+    height: auto;
+    max-height: 520px;
+    object-fit: cover;
     border-radius: 10px;
 }
 .projects-card  button {
@@ -306,7 +309,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 70vh; */
     color: var(--text-color);
 }
 .contact-content .container{
@@ -322,8 +324,9 @@ body{
 }
 .contact-content .details{
     padding: 22px;
-    width: 800px;
-    height: 240px;
+    width:100%;
+    max-width: 800px;
+    height: auto;
     box-shadow: var(--box-shadow);
 }
 .contact-content i{
