@@ -14,12 +14,12 @@ Responsive Flexbox & Grid Layouts<br><br>
 - This portfolio features a toggle button fixed at the top-right corner of the navbar, allowing users to switch between dark and light themes. The user's choice is stored in localStorage, so their preference is remembered across visits.
 <br><br>
 📷 Screenshots<br>
-💡 Light Mode<br>	
-![Light Mode Screenshot](https://github.com/VenkataLohithSunku/Personal-portfolio/blob/main/images/White%20Theme.png)
+<b>💡 Light Mode<b><br>	
+<img width="700" height="622" alt="image" src="https://github.com/VenkataLohithSunku/Personal-portfolio/blob/main/images/White%20Theme.png">
 <br>
-🌙 Dark Mode<br>
-![Dark Mode Screenshot](https://github.com/VenkataLohithSunku/Personal-portfolio/blob/main/images/Black%20Theme.png)
-<br><br>
+<b>🌙 Dark Mode<b><br>
+<img width="700" height="622" alt="image" src="https://github.com/VenkataLohithSunku/Personal-portfolio/blob/main/images/Black%20Theme.png">
+<br>
 🔗 Live Demo
 👉 https://venkatalohithsunku.github.io/Personal-portfolio/
 <br><br>
